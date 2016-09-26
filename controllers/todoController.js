@@ -4,7 +4,7 @@ var mongoose = require('mongoose');   // mongoose for connecting to mongoDB
 // connect to mlab mongodb
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://test1:test1@127.0.0.1:27017/Todo');
-
+// mongoose.connect('mongodb://test1:test1@ds035806.mlab.com:35806/foobartodo'); // For mLab mongodb
 // schema
 var todoSchema = new mongoose.Schema({
   item: String
