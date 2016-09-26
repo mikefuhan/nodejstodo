@@ -1,3 +1,3 @@
 # nodejstodo
 nodejstodo tutorial app
-## This is the master branch where everything sprouts
+## This is windows branch, sprout from master
